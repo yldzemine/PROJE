@@ -1,0 +1,21 @@
+
+import pandas as pd
+
+# CSV'den okuma (gerçek veri için)
+# df = pd.read_csv("veri.csv")
+
+# Örnek veriyle çalışma (test için)
+data = {
+    "Patient Complaint": [
+        "Severe headache and nausea",
+        "Cough and sore throat",
+        "Stomach pain after eating"
+    ],
+    "Medical Prescription": [
+        "Paracetamol 500mg twice a day",
+        "Cough syrup 10ml every 6 hours",
+        "Antacid tablets after meals"
+    ]
+}
+
+df = pd.DataFrame(data)
